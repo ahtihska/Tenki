@@ -11,7 +11,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(to right, #F9F3E5, #F9F3E5);
+  background: linear-gradient(to right, #ffe3fd, #fbcaff);
 }
 
 
@@ -83,7 +83,7 @@ header i{
   border: 1px solid #ccc;
 }
 .input-part input:is(:focus, :valid){
-  border: 2px solid #bcec8c;
+  border: 2px solid #fac0ff;
 }
 .input-part input::placeholder{
   color: #bfbfbf;
@@ -106,13 +106,13 @@ header i{
   background: #fff;
 }
 .input-part button{
-  color: #fff;
+  color: rgb(31, 31, 31);
   cursor: pointer;
-  background: #6ece00;
+  background: #fac6ff;
   transition: 0.3s ease;
 }
 .input-part button:hover{
-  background: #c0fc1d;
+  background: #ffa7ff;
 }
 
 .wrapper .weather-part{
@@ -172,7 +172,7 @@ header i{
   justify-content: center;
 }
 .column i{
-  color: #5DBBFF;
+  color: #ff6fc8;
   font-size: 40px;
 }
 .column.humidity{
